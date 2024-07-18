@@ -12,10 +12,10 @@ The script runs a simple text-based version of the card game Blackjack. The game
 4) The player can choose to "Hit" (take another card) or "Stand" (end their turn).
 5) The dealer reveals their hand and must hit until their hand value is at least 17.
 6) The game determines the winner based on the hand values:
-- Player busts if their hand value exceeds 21.
-- Player wins if their hand value is higher than the dealer's without busting.
-- Dealer wins if the dealer's hand value is higher than the player's without busting.
-- A tie results in a push.
+    - Player busts if their hand value exceeds 21.
+    - Player wins if their hand value is higher than the dealer's without busting.
+    - Dealer wins if the dealer's hand value is higher than the player's without busting.
+    - A tie results in a push.
 7) The player can choose to play another hand or exit the game.
 
 ### Project Structure
